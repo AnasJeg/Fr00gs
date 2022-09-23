@@ -59,6 +59,7 @@ html {
 :root {
 	--body: #202020;
 	--accent: #b8f031;
+	--accents: #ffec84;
 	--accentHover: #acd859;
 	--text: #242c34;
 	--boxShadow: 0px 8px 24px 0px rgba(0, 0, 0, 0.1);
@@ -217,6 +218,9 @@ a:hover {
 .JCLogo {
 	background-image: url('../images/Fr00g_Logo.png');
 	width: 100px;
+	transition: 0.3s ease;
+	background: var(--accents);
+	border: 2px solid var(--accents);
 }
 
 .JC-IndexBox {
