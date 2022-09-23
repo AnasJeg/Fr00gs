@@ -3,35 +3,40 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+
 body {
-  background: #222;
-  margin: 0rem;
-  min-height: 100vh;
-  font-family: Futura, sans-serif;
+	background: #222;
+	margin: 0rem;
+	min-height: 100vh;
+	font-family: Futura, sans-serif;
 }
-#canvas, #text {
-  position: absolute;
-  display: block;
-  top: 0;
-  left: 0;
-  z-index: -1;
+
+#canvas,
+#text {
+	position: absolute;
+	display: block;
+	top: 0;
+	left: 0;
+	z-index: -1;
 }
 
 #text {
-  min-height: 100vh;
-  width: 100vw;
-  z-index: 1;
-  color: #fff;
-  text-transform: uppercase;
-  font-size: 8vmin;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
+	min-height: 100vh;
+	width: 100vw;
+	z-index: 1;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 8vmin;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
 }
+
 #text h1 {
-  opacity: 0.9
+	opacity: 0.9
 }
+
 body,
 html {
 	max-width: 100%;
@@ -39,40 +44,54 @@ html {
 	/* height: 100%; */
 	scroll-behavior: smooth;
 }
-.fr00gs{
+
+.fr00gs {
 	margin-left: 550px;
 }
-.footer{
+
+.footer {
 	color: white;
 	margin-left: 200px;
 	margin-top: 50px;
 	bottom: 0;
 }
+
 :root {
 	--body: #202020;
-    --accent: #b8f031;
+	--accent: #b8f031;
 	--accentHover: #acd859;
-	--text: #242c34;    
+	--text: #242c34;
 	--boxShadow: 0px 8px 24px 0px rgba(0, 0, 0, 0.1);
 }
 
 ::-webkit-scrollbar {
 	width: 10px;
 }
-  
+
 ::-webkit-scrollbar-track {
-	background: #faf8f4; 
+	background: #faf8f4;
 }
-   
+
 ::-webkit-scrollbar-thumb {
-	background: #f46471; 
+	background: #f46471;
 }
-  
+
 ::-webkit-scrollbar-thumb:hover {
 	background: #f46471;
 }
 
-.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
 	margin-bottom: 0px;
 }
 
@@ -97,7 +116,7 @@ a:hover {
 
 .JC-IndexContainer {
 	height: 100%;
-	background: url(/assets/images/bgggg.png);
+	background: url(/assets//images/back.png);
 	background-size: cover;
 	background-position: top;
 }
@@ -113,15 +132,15 @@ a:hover {
 
 .JC-navLink {
 	margin: 0px 5px;
-    padding: 5px 15px;
-    border-radius: 8px;
-    background-color: #faf8f4;
-    color: var(--accent);
+	padding: 5px 15px;
+	border-radius: 8px;
+	background-color: #faf8f4;
+	color: var(--accent);
 	font-size: 15px;
-    font-weight: 600;
-    letter-spacing: 0.145rem;
-    text-decoration: none;
-    text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: 0.145rem;
+	text-decoration: none;
+	text-transform: uppercase;
 	transition: 0.3s ease;
 	border: 2px solid #faf8f4;
 }
@@ -131,7 +150,6 @@ a:hover {
 	background: var(--accent);
 	color: #fff;
 	border: 2px solid var(--accent);
-	
 }
 
 .JC-Active {
@@ -141,21 +159,21 @@ a:hover {
 }
 
 .JC-navRight {
-    display: flex;
-    align-items: center;
+	display: flex;
+	align-items: center;
 }
 
 .JC-navLink-disabled {
 	margin: 0px 5px;
-    padding: 5px 15px;
-    border-radius: 8px;
+	padding: 5px 15px;
+	border-radius: 8px;
 	background-color: #e6e2de;
-    color: #cfcbc7;
+	color: #cfcbc7;
 	font-size: 15px;
-    font-weight: 600;
-    letter-spacing: 0.145rem;
-    text-decoration: none;
-    text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: 0.145rem;
+	text-decoration: none;
+	text-transform: uppercase;
 	transition: 0.3s ease;
 	border: 2px solid #e6e2de;
 	cursor: not-allowed;
@@ -163,25 +181,25 @@ a:hover {
 
 .JC-navLink-me {
 	margin: 0px 5px;
-    padding: 5px 15px;
-    border-radius: 3px;
-    background-color: #faf8f4;
-    color: red;	
-    font-size: 15px;
-    font-weight: 600;
-    letter-spacing: 0.145rem;
-    text-decoration: none;
-    text-transform: uppercase;
-    transition: 0.3s ease;
-    border: 2px solid #faf8f4;
+	padding: 5px 15px;
+	border-radius: 3px;
+	background-color: #faf8f4;
+	color: red;
+	font-size: 15px;
+	font-weight: 600;
+	letter-spacing: 0.145rem;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: 0.3s ease;
+	border: 2px solid #faf8f4;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 }
 
 .JC-navLink-svg {
-    width: 30px;
-    height: 15px;
+	width: 30px;
+	height: 15px;
 	fill: #fff;
 }
 
@@ -197,7 +215,8 @@ a:hover {
 }
 
 .JCLogo {
-	width: 120px;
+	background-image: url('../images/Fr00g_Logo.png');
+	width: 100px;
 }
 
 .JC-IndexBox {
@@ -214,27 +233,32 @@ a:hover {
 
 .JC-HomepageImage:hover {
 	transition: 0.3s ease;
-	/*
-	filter: drop-shadow(0px 10px 25px var(--accent));
-	*/
+	/* filter: drop-shadow(0px 10px 25px var(--accent)); */
+}
+
+.prevent-select {
+	-webkit-user-select: none;
+	/* Safari */
+	-ms-user-select: none;
+	/* IE 10 and IE 11 */
+	user-select: none;
+	/* Standard syntax */
 }
 
 .JC-IndexFooter {
-    width: 1500px;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+	width: 1500px;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
 	margin-top: 15px;
-	bottom: 0;
-	
 }
 
 .JC-FooterRedirect {
-    display: flex;
-    align-items: center;
-    width: 500px;
-    justify-content: space-between;
+	display: flex;
+	align-items: center;
+	width: 500px;
+	justify-content: space-between;
 	background: var(--accent);
 	height: 80px;
 	padding: 0px 25px;
@@ -245,15 +269,15 @@ a:hover {
 
 .JC-FooterRedirect h3 {
 	font-size: 10px;
-    text-transform: uppercase;
-    opacity: 0.6;
-    font-weight: 500;
+	text-transform: uppercase;
+	opacity: 0.6;
+	font-weight: 500;
 }
 
 .JC-FooterRedirect h5 {
 	text-transform: uppercase;
-    font-weight: 700;
-    font-size: 15px;
+	font-weight: 700;
+	font-size: 15px;
 }
 
 .JC-FooterRe-btn {
@@ -286,21 +310,21 @@ a:hover {
 }
 
 .JC-FooterCopyright {
-    color: white;
+	color: white;
 	font-size: 15px;
 }
 
 .JC-mobileBtn {
 	margin: 0px 5px;
-    padding: 5px 15px;
-    border-radius: 3px;
-    background-color: #faf8f4;
-    color: #bb9772;
+	padding: 5px 15px;
+	border-radius: 3px;
+	background-color: #faf8f4;
+	color: #bb9772;
 	font-size: 15px;
-    font-weight: 600;
-    letter-spacing: 0.145rem;
-    text-decoration: none;
-    text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: 0.145rem;
+	text-decoration: none;
+	text-transform: uppercase;
 	transition: 0.3s ease;
 	border: 2px solid #faf8f4;
 	display: none;
@@ -322,12 +346,12 @@ a:hover {
 	left: 0;
 	overflow-x: hidden;
 	transition: 0.5s;
-	background: rgba(0,0,0,30%);
+	background: rgba(0, 0, 0, 30%);
 	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 	backdrop-filter: blur(10px);
 	-webkit-backdrop-filter: blur(10px);
 }
-  
+
 .JC-mobileMenu-overlay {
 	position: relative;
 	top: 25%;
@@ -336,23 +360,23 @@ a:hover {
 	margin-top: -50px;
 	flex-direction: column;
 }
-  
+
 .JC-mobile-overlay .JC-closeBtn {
 	position: absolute;
 	top: 30px;
-    right: 30px;
-    font-size: 25px;
-    font-weight: 600;
+	right: 30px;
+	font-size: 25px;
+	font-weight: 600;
 }
 
 .mobileLink {
-    font-size: 17px;
-    padding: 25px 30px;
-    color: #d5d5d5;
-    background: #faf8f4;
-    border-top: 1px solid #faf8f4;
-    border-bottom: 1px solid #faf8f4;
-    font-weight: 500;
+	font-size: 17px;
+	padding: 25px 30px;
+	color: #d5d5d5;
+	background: #faf8f4;
+	border-top: 1px solid #faf8f4;
+	border-bottom: 1px solid #faf8f4;
+	font-weight: 500;
 	text-transform: uppercase;
 	color: #bb9772;
 	transition: 0.3s ease;
@@ -459,8 +483,8 @@ a:hover {
 }
 
 .JC-TeamLink {
-    font-size: 24px;
-    color: var(--accent);
+	font-size: 24px;
+	color: var(--accent);
 	transition: 0.3s ease;
 }
 
@@ -470,14 +494,14 @@ a:hover {
 }
 
 .JC-TeamBox-name {
-    font-weight: 600;
-    color: var(--accent);
+	font-weight: 600;
+	color: var(--accent);
 }
 
 .JC-TeamBox-rank {
-    text-transform: uppercase;
-    font-weight: 700;
-    font-size: 9px;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 9px;
 	opacity: 0.6;
 }
 
@@ -490,14 +514,14 @@ a:hover {
 }
 
 .JC-ConnectBox {
-    padding: 0px 25px;
-    background: #ffff;
-    width: 320px;
-    height: 80px;
-    display: flex;
-    align-items: center;
-    border-radius: 10px;
-    box-shadow: var(--boxShadow);
+	padding: 0px 25px;
+	background: #ffff;
+	width: 320px;
+	height: 80px;
+	display: flex;
+	align-items: center;
+	border-radius: 10px;
+	box-shadow: var(--boxShadow);
 	margin-bottom: 15px;
 	margin-right: 15px;
 	transition: 0.3s ease;
@@ -512,14 +536,14 @@ a:hover {
 
 .JC-ConnectBox p {
 	font-weight: 600;
-    color: var(--accent);
+	color: var(--accent);
 }
 
 .JC-ConnectBox small {
 	text-transform: uppercase;
-    font-weight: 700;
-    font-size: 9px;
-    opacity: 0.6;
+	font-weight: 700;
+	font-size: 9px;
+	opacity: 0.6;
 }
 
 .JC-ConnectBox:hover {
@@ -562,17 +586,17 @@ a:hover {
 
 .JC-Goatmap-boxHead p {
 	font-weight: 800;
-    font-size: 60px;
-    opacity: 0.10;
+	font-size: 60px;
+	opacity: 0.10;
 	margin-bottom: -10px;
 }
 
 .JC-Goatmap-boxHead small {
 	font-size: 26px;
-    text-transform: uppercase;
-    font-weight: 700;
-    letter-spacing: 2px;
-    color: var(--accent);
+	text-transform: uppercase;
+	font-weight: 700;
+	letter-spacing: 2px;
+	color: var(--accent);
 }
 
 .JC-Goatmap-boxBody {
@@ -582,14 +606,14 @@ a:hover {
 .JC-Goatmap-absolute {
 	width: 250px;
 	position: absolute;
-    bottom: -350px;
+	bottom: -350px;
 	right: 20px;
 }
 
 .modal-dialog {
 	margin-top: 60px;
 	max-width: 100% !important;
-    width: 100% !important;
+	width: 100% !important;
 }
 
 .modal-body {
@@ -603,11 +627,11 @@ a:hover {
 }
 
 .modal-body b {
-    background: var(--accent);
-    color: #fff;
-    padding: 2px 8px;
-    font-size: 13px;
-    font-weight: 400;
+	background: var(--accent);
+	color: #fff;
+	padding: 2px 8px;
+	font-size: 13px;
+	font-weight: 400;
 }
 
 .modal-content {
@@ -626,39 +650,39 @@ a:hover {
 
 .JC-FooterSuggest {
 	display: flex;
-    align-items: center;
-    width: 500px;
-    justify-content: space-between;
-    background: var(--accent);
-    height: 80px;
-    padding: 0px 25px;
-    box-shadow: var(--boxShadow);
-    border-radius: 10px;
-    color: #ece8e3;
+	align-items: center;
+	width: 500px;
+	justify-content: space-between;
+	background: var(--accent);
+	height: 80px;
+	padding: 0px 25px;
+	box-shadow: var(--boxShadow);
+	border-radius: 10px;
+	color: #ece8e3;
 }
 
 .JC-SuggestBtn {
 	height: 50px;
-    background: #fff;
-    display: flex;
-    align-items: center;
-    width: 150px;
-    justify-content: center;
-    text-align: center;
-    padding: 0px 25px;
-    text-transform: uppercase;
-    font-weight: 700;
-    border-radius: 6px;
-    transition: 0.3s ease;
+	background: #fff;
+	display: flex;
+	align-items: center;
+	width: 150px;
+	justify-content: center;
+	text-align: center;
+	padding: 0px 25px;
+	text-transform: uppercase;
+	font-weight: 700;
+	border-radius: 6px;
+	transition: 0.3s ease;
 	border: inherit;
 	font-family: 'Outfit', sans-serif;
 }
 
 .JC-SuggestBtn i {
 	position: relative;
-    transition: 0.3s ease;
-    margin-left: 15px;
-    left: 0px;
+	transition: 0.3s ease;
+	margin-left: 15px;
+	left: 0px;
 }
 
 .JC-SuggestBtn:hover {
@@ -668,17 +692,17 @@ a:hover {
 
 .JC-SuggestBtn:hover i {
 	position: relative;
-    left: 10px;
-    transition: 0.3s ease;
+	left: 10px;
+	transition: 0.3s ease;
 }
 
 .JC-SuggestInput {
 	font-family: 'Outfit', sans-serif;
-    height: 50px;
-    padding: 0px 25px;
-    border-radius: 10px;
-    border: inherit;
-    outline: inherit;
+	height: 50px;
+	padding: 0px 25px;
+	border-radius: 10px;
+	border: inherit;
+	outline: inherit;
 }
 
 ::placeholder {
@@ -690,57 +714,56 @@ a:hover {
 }
 
 /* ACCORDION */
-
 .accordion {
 	display: grid;
 	align-content: center;
 	height: 100vh;
-  }
-  
-  .accordion__container {
+}
+
+.accordion__container {
 	display: grid;
 	row-gap: .75rem;
-  }
-  
-  .accordion__title {
+}
+
+.accordion__title {
 	font-size: var(--small-font-size);
 	color: var(--title-color);
 	font-weight: 400;
 	margin-top: .15rem;
 	transition: .2s;
-  }
-  
-  .accordion__header {
+}
+
+.accordion__header {
 	display: flex;
 	column-gap: .5rem;
 	padding: 1.25rem 1.25rem 1.25rem 1rem;
 	cursor: pointer;
 	align-items: center;
-  }
-  
-  .accordion__description {
+}
+
+.accordion__description {
 	padding: 0 1.25rem 1.25rem 3rem;
 	font-size: var(--smaller-font-size);
-  }
-  
-  .accordion__icon {
+}
+
+.accordion__icon {
 	font-size: 16px;
 	height: max-content;
 	color: var(--title-color);
 	transition: .3s;
 	opacity: 0.5;
 	margin-right: 5px;
-  }
-  
-  .accordion__item {
+}
+
+.accordion__item {
 	box-shadow: 0 2px 6px rgba(38, 38, 38, 0.1);
 	position: relative;
 	transition: all .25s ease;
 	background: #fff;
 	border-radius: 15px;
-  }
-  
-  .accordion__item::after {
+}
+
+.accordion__item::after {
 	content: '';
 	background-color: var(--first-color);
 	width: 5px;
@@ -749,38 +772,38 @@ a:hover {
 	top: 0;
 	left: 0;
 	border-radius: .25rem 0 0 .25rem;
-  }
-  
-  .accordion__content {
+}
+
+.accordion__content {
 	overflow: hidden;
 	height: 0;
 	transition: all .25s ease;
-  }
-  
-  .accordion-open .accordion__icon {
+}
+
+.accordion-open .accordion__icon {
 	transform: rotate(90deg);
-  }
-  
-  @media screen and (min-width: 576px) {
+}
+
+@media screen and (min-width: 576px) {
 	.accordion__container {
-	  justify-self: center;
+		justify-self: center;
 	}
+
 	.accordion__header {
-	  padding: 1.5rem;
+		padding: 1.5rem;
 	}
+
 	.accordion__title {
-	  padding-right: 3.5rem;
+		padding-right: 3.5rem;
 	}
+
 	.accordion__description {
-	  padding: 0 4rem 1.25rem 3.5rem;
+		padding: 0 4rem 1.25rem 3.5rem;
 	}
-  }
-  
+}
 
 /* ACCORDION */
-
 /* RESPONSIVE */
-
 @media only screen and (max-width: 1550px) {
 	.JC-NavBar {
 		width: 90%;
@@ -855,7 +878,7 @@ a:hover {
 	.JC-mobileBtn {
 		display: flex;
 	}
-	
+
 	.JC-IndexBox {
 		height: 70%;
 	}
