@@ -1,21 +1,4 @@
-var setVanta = ()=>{
-                if (window.VANTA) window.VANTA.CELLS({
-                el: ".testing",
-                mouseControls: true,
-                touchControls: true,
-                gyroControls: false,
-                minHeight: 200.00,
-                minWidth: 200.00,
-                scale: 1.00,
-                size: 1.90,
-                speed: 2.20
-                })
-                }
-                _strk.push(function() {
-                setVanta()
-                window.edit_page.Event.subscribe( "Page.beforeNewOneFadeIn", setVanta )
-                })
-                
+
 function openMenu() {
     document.getElementById("mobileMenu").style.width = "300px";
     document.querySelectorAll("body :not(.notBlur)")
